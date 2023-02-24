@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Gthub](https://github.com/LaxmanJonchhen12/interactive-rating-component-main)
+- Live Site URL: [Netlify](https://interactiveratingchallenge-laxman.netlify.app/)
 
 ## My process
 
