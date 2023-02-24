@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Overpass', sans-serif;
+}
+
+#container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: hsl(216, 12%, 8%);
+}
+
+.card{
+	background: #1C232D;
+	padding: 1.5rem;
+	border-radius: 20px;
+}
+
+.card-hide{
+	display: none;
+}
+
+#title{
+	color: white;
+	word-spacing: 2px;
+	font-size:1.2rem;
+	font-weight: 700;
+	padding: 1rem 0 1rem 0;
+}
+
+#star{
+   	background: #262B31;
+    padding: 0.7rem;
+    border-radius: 3rem;
+}
+
+
+#descripiton{
+	max-width: 350px;
+	color: hsl(217, 12%, 63%);
+	font-size: 0.9375rem;
+	font-weight: 400;
+	padding: 0 0 1.2rem 0;
+	line-height: 22px;
+}
+
+.btn{
+	background: #252E37;
+	padding: 0.9rem 1.3rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    border: none;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+}
+
+.btn:hover{
+	background: #F77720;
+	color: #FFFFFF;
+}
+
+.btn:focus{
+	background: #7D8798;
+	color:white;
+}
+
+#ratings-container{
+	padding: 0 0 1.5rem 0;
+}
+
+#submit{
+	padding: 0.7rem 0;
+    text-transform: uppercase;
+    background: #FC7613;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 20px;
+    border: none;
+    width: 95%;
+    cursor: pointer;
+}
+
+#submit:hover{
+	background: #FFFFFF;
+	color: #DB7D3D;
+}
+
+#rating{
+	background: #262F38;
+    border-radius: 20px;
+    text-align: center;
+    color: #BE8150;
+    font-weight: 800;
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+    margin: 2rem 0 0 0;
+}
+
+.thanks-card{
+	padding: 2rem 1.5rem !important;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #1C232D;
+	padding: 1.5rem;
+	border-radius: 20px;
+	display: none;
+}
+
+.thanks-card-show{
+	display: flex;
+}
+
+#thank{
+	color: white;
+    font-weight: 800;
+    font-size: 1.4rem;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin: 2.5rem 0 0 0;
+}
+
+#message__description{
+	color: #787F89;
+    font-size: 0.9rem;
+    font-weight: 800;
+    max-width: 325px;
+    text-align: center;
+    margin:0.7rem 0 0 0;
+}
+
+.cardRemove{
+	display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+	.card{
+		margin: 0 1.5rem;
+	}
+
+	.btn{
+		margin: 0 0.7rem 0.7rem 0;
+		padding: 0.9rem 1.2rem;
+	}
+
+	.thanks-card{
+		margin: 0 1.5rem;
+	}
+
+}
